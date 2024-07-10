@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SXBP-150+
+D Surface Mount Bandpass Filter
+K
+F https://www.mouser.fr/datasheet/2/1030/SXBP_150_2b-3305079.pdf
+$ENDCMP
+#
+#End Doc Library
