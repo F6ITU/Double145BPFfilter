@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.6,
+          "height": 0.9,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -482,7 +482,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Gerber/",
+      "plot": "../Transverter2/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
