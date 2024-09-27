@@ -482,7 +482,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Transverter2/Gerber/",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

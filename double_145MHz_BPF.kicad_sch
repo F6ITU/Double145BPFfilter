@@ -707,6 +707,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.314 48.26) (xy 100.076 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275fcf80-7441-4df1-b857-fb67ea00170f")
+	)
+	(wire
+		(pts
 			(xy 100.076 50.8) (xy 100.076 52.324)
 		)
 		(stroke
@@ -717,16 +727,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.726 58.42) (xy 93.726 59.944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d8862d2-969a-4725-a1e4-2c07392260ac")
-	)
-	(wire
-		(pts
 			(xy 55.118 50.8) (xy 55.118 52.324)
 		)
 		(stroke
@@ -734,6 +734,16 @@
 			(type default)
 		)
 		(uuid "902c104f-67f4-4b5c-9d04-48aa2efb7f1e")
+	)
+	(wire
+		(pts
+			(xy 84.074 58.42) (xy 84.074 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9527b51a-d07e-4598-8a83-c2a59e3f0887")
 	)
 	(wire
 		(pts
@@ -767,23 +777,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.962 48.26) (xy 78.486 48.26)
+			(xy 76.962 48.26) (xy 78.994 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5b21b20-a0b9-4e14-b125-f59661f5e41f")
-	)
-	(wire
-		(pts
-			(xy 98.806 48.26) (xy 100.076 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9526a9c-4d09-4923-9cad-56d930e32959")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
@@ -850,72 +850,6 @@
 			(project ""
 				(path "/400861fc-cbc3-4ec9-a9e3-afcce8493da3"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.726 59.944 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cf755f8-9017-42ec-84aa-73da244edddf")
-		(property "Reference" "#PWR05"
-			(at 93.726 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.726 64.0771 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.726 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.726 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.726 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20cc8142-326f-44fe-8045-db2d0d0fb2b2")
-		)
-		(instances
-			(project "145MHz_BPF"
-				(path "/400861fc-cbc3-4ec9-a9e3-afcce8493da3"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -992,33 +926,17 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Filter:SXBP-140")
-		(at 88.646 48.26 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 84.074 59.944 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5974f48f-be52-4085-b4a9-04eda85e1be2")
-		(property "Reference" "U2"
-			(at 88.646 37.7655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SXBP-140"
-			(at 88.646 40.1898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_HF1139_LandPatternPL-230"
-			(at 88.646 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "408f3041-1b26-400d-a17f-97bc643780d2")
+		(property "Reference" "#PWR05"
+			(at 84.074 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,8 +944,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/SXBP-140+.pdf"
-			(at 88.646 38.1 0)
+		(property "Value" "GND"
+			(at 84.074 64.0771 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.074 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,8 +961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bandpass Filter, 130 to 150 MHz, 50 Ohm, Mini-Circuits HF1139"
-			(at 88.646 48.26 0)
+		(property "Datasheet" ""
+			(at 84.074 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,34 +970,22 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "c0a50a72-37d7-4eb6-9f4d-0dca877a6648")
-		)
-		(pin "5"
-			(uuid "95bbb964-c3ca-498e-acd9-9b927b015e2a")
-		)
-		(pin "4"
-			(uuid "964f5246-5dff-4acd-909b-b667f633cac4")
-		)
-		(pin "6"
-			(uuid "2bbcc044-5180-4635-9386-b65e2cb24fbb")
-		)
-		(pin "2"
-			(uuid "ace5f820-4009-489f-b35d-ecf0accfccbd")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 84.074 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "66b2f7c9-6462-4458-9e06-36ee4b612e83")
-		)
-		(pin "7"
-			(uuid "49b852b9-6903-4c2d-ae17-42ddb33230e2")
-		)
-		(pin "3"
-			(uuid "bfa6b9b8-a85a-4721-8d34-91a2b9902f0b")
+			(uuid "e857a700-309b-45fb-80a9-2e7e338588b4")
 		)
 		(instances
-			(project "145MHz_BPF"
+			(project "double_145MHz_BPF"
 				(path "/400861fc-cbc3-4ec9-a9e3-afcce8493da3"
-					(reference "U2")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1356,6 +1270,92 @@
 			(project "145MHz_BPF"
 				(path "/400861fc-cbc3-4ec9-a9e3-afcce8493da3"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Filter:SXBP-140")
+		(at 89.154 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb359493-cad8-467b-b2e1-709a75e9e081")
+		(property "Reference" "U2"
+			(at 89.154 37.7655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SXBP-140"
+			(at 89.154 40.1898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_HF1139_LandPatternPL-230"
+			(at 89.154 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/SXBP-140+.pdf"
+			(at 89.154 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bandpass Filter, 130 to 150 MHz, 50 Ohm, Mini-Circuits HF1139"
+			(at 89.154 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "27df0b48-1061-4609-99e9-facfdcdc649e")
+		)
+		(pin "5"
+			(uuid "84681e38-934d-4839-872b-ebbc50b43133")
+		)
+		(pin "4"
+			(uuid "29102f8c-f56c-4eeb-a149-67c1e0c550d2")
+		)
+		(pin "6"
+			(uuid "7fe38cc2-07d0-4ba0-be18-0a98fc6c0ccb")
+		)
+		(pin "2"
+			(uuid "ae4330f8-0a5a-4328-b6e3-2344895499e3")
+		)
+		(pin "1"
+			(uuid "6544c7dd-5db8-46b0-81fa-5a86ace7259e")
+		)
+		(pin "7"
+			(uuid "1f878825-3f5d-471f-b5c9-fc1b724e5bc7")
+		)
+		(pin "3"
+			(uuid "9af06f15-3a23-4c7a-a48c-195f3928afe0")
+		)
+		(instances
+			(project "double_145MHz_BPF"
+				(path "/400861fc-cbc3-4ec9-a9e3-afcce8493da3"
+					(reference "U2")
 					(unit 1)
 				)
 			)
